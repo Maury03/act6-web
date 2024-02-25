@@ -12,7 +12,7 @@ class ProductoController extends Controller
      */
     public function index()
     {
-        //
+        return view('productos/index');
     }
 
     /**
@@ -20,7 +20,7 @@ class ProductoController extends Controller
      */
     public function create()
     {
-        //
+        return view('productos/create');
     }
 
     /**
@@ -42,9 +42,9 @@ class ProductoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Producto $producto)
+    public function edit()
     {
-        //
+        return view('productos/edit');
     }
 
     /**
